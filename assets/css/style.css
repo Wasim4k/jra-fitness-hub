@@ -687,6 +687,7 @@ font-weight:900;
   padding:14px 18px;border-radius:12px;font-family:var(--font-body);
 }
 .bmi-box .form-control:focus{border-color:var(--orange);box-shadow:0 0 0 3px rgba(255,122,0,.15);background:rgba(255,255,255,.05);color:var(--white);}
+.bmi-box .form-control::placeholder{color:var(--grey);opacity:1;}
 .bmi-result{
   border-radius:var(--radius-md);border:1px solid var(--line);
   background:linear-gradient(160deg, rgba(255,122,0,.1), rgba(0,0,0,.2));
@@ -726,6 +727,20 @@ font-weight:900;
   padding:15px 18px;border-radius:12px;margin-bottom:16px;
 }
 .contact-form .form-control:focus{border-color:var(--orange);box-shadow:0 0 0 3px rgba(255,122,0,.15);background:rgba(255,255,255,.05);color:var(--white);}
+.contact-form .form-control::placeholder{color:var(--grey);opacity:1;}
+.contact-form select.form-control{
+  appearance:none;-webkit-appearance:none;-moz-appearance:none;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='8' viewBox='0 0 14 8'><path d='M1 1l6 6 6-6' fill='none' stroke='%239A9A9A' stroke-width='1.6'/></svg>");
+  background-repeat:no-repeat;background-position:right 18px center;
+  cursor:pointer;color:var(--white);
+}
+.contact-form select.form-control option{
+  background:var(--dark);color:var(--white);
+}
+.contact-form select.form-control:invalid,
+.contact-form select.form-control option[value=""]{
+  color:var(--grey);
+}
 .map-frame{
     width:95%;
     height:500px;
@@ -854,7 +869,7 @@ footer p{color:var(--grey);font-weight:300;font-size:.92rem;line-height:1.8;}
 }
 
 .footer-logo{
-    height:90px;
+    height:110px;
     width:auto;
 }
 
@@ -867,11 +882,11 @@ footer p{color:var(--grey);font-weight:300;font-size:.92rem;line-height:1.8;}
 @media(max-width:991px){
 
 .logo{
-    height:55px;
+    height:65px;
 }
 
 .footer-logo{
-    height:70px;
+    height:85px;
 }
 
 }
@@ -890,8 +905,8 @@ footer p{color:var(--grey);font-weight:300;font-size:.92rem;line-height:1.8;}
 }
 
 .logo{
-    width:65px;
-    height:65px;
+    width:85px;
+    height:85px;
     object-fit:contain;
 }
 
@@ -919,15 +934,15 @@ footer p{color:var(--grey);font-weight:300;font-size:.92rem;line-height:1.8;}
 }
 
 .navbar.scrolled .logo{
-    width:55px;
-    height:55px;
+    width:70px;
+    height:70px;
 }
 
 @media(max-width:991px){
 
 .logo{
-    width:50px;
-    height:50px;
+    width:65px;
+    height:65px;
 }
 
 .brand-main{
