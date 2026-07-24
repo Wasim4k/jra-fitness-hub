@@ -423,7 +423,7 @@ font-weight:900;
   border:1px solid var(--line);
 }
 .about-frame img{
-  position:absolute;inset:0;width:100%;height:100%;object-fit:cover;
+  position:absolute;inset:0;width:100%;height:100%;object-fit:fill;
   filter:brightness(.72) contrast(1.08) saturate(1.05);
 }
 .about-frame::after{
