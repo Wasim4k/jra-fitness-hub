@@ -105,6 +105,7 @@ opacity:.45;
   /* About */
   .about-badge{position:static;margin-top:-40px;margin-left:20px;display:inline-block;}
   /* .about-frame{height:400px;} */
+     .about-frame{width:200px;}
 
   /* Why choose us */
   .why-visual{min-height:340px;margin-top:40px;}
