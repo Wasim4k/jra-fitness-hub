@@ -105,12 +105,12 @@
           var plan = document.getElementById('cfPlan').value;
           var message = document.getElementById('cfMessage').value.trim();
 
-          var text = "New Enquiry from Website%0A"
-            + "*Name:* " + encodeURIComponent(name) + "%0A"
-            + "*Phone:* " + encodeURIComponent(phone) + "%0A"
-            + "*Email:* " + encodeURIComponent(email) + "%0A"
-            + "*Plan Interested:* " + encodeURIComponent(plan) + "%0A"
-            + "*Message:* " + encodeURIComponent(message || "-");
+          var text = "New Enquiry from Website 🏋️%0A%0A"
+            + "🙋 Name: " + encodeURIComponent(name) + "%0A"
+            + "📞 Phone: " + encodeURIComponent(phone) + "%0A"
+            + "📧 Email: " + encodeURIComponent(email) + "%0A"
+            + "🎯 Plan Interested: " + encodeURIComponent(plan) + "%0A"
+            + "📝 Message: " + encodeURIComponent(message || "-");
 
           window.open("https://wa.me/918122880202?text=" + text, "_blank");
         });

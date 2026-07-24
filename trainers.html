@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Our Trainers | JRA Fitness Hub</title>
-<meta name="description" content="Meet the certified expert trainers at JRA Fitness Hub, Chennai's premium fitness studio.">
+<meta name="description" content="Meet the certified coaching disciplines at JRA Fitness Hub, Chennai's premium fitness studio.">
 <link rel="icon" href="assets/images/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
@@ -13,6 +13,15 @@
 <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
+<style>
+.role-card{background:var(--dark-2,#141414);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:2rem 1.75rem;height:100%;transition:transform .3s ease,border-color .3s ease;}
+.role-card:hover{transform:translateY(-6px);border-color:var(--orange);}
+.role-card .service-icon{margin-bottom:1rem;}
+.role-card h4{margin-bottom:1rem;}
+.role-list{list-style:none;padding:0;margin:0;}
+.role-list li{display:flex;align-items:flex-start;gap:.6rem;padding:.4rem 0;font-size:.95rem;opacity:.9;}
+.role-list i{color:var(--orange);margin-top:.25rem;font-size:.8rem;}
+</style>
 </head>
 <body>
 
@@ -66,66 +75,91 @@
 <section class="section-pad">
   <div class="container">
     <div class="row g-4">
-      <div class="col-md-6 col-lg-3" data-aos="fade-up">
-        <div class="trainer-card gsap-card"><div class="trainer-photo"><img src="assets/images/trainers/trainer-rahul.jpg" alt="Rahul Jayaraman, Strength & Conditioning coach" loading="lazy"><div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div><div class="trainer-info"><h5>Rahul Jayaraman</h5><span>Strength & Conditioning</span><p>8+ years turning beginners into confident lifters.</p></div></div>
-      </div>
-      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="40">
-        <div class="trainer-card gsap-card"><div class="trainer-photo"><img src="assets/images/trainers/trainer-anjali.jpg" alt="Anjali Krishnan, Functional Training coach" loading="lazy"><div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div><div class="trainer-info"><h5>Anjali Krishnan</h5><span>Functional Training</span><p>Specialist in athletic performance & mobility.</p></div></div>
-      </div>
-      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="70">
-        <div class="trainer-card gsap-card"><div class="trainer-photo"><img src="assets/images/trainers/trainer-karthik.jpg" alt="Karthik Suresh, Weight Management coach" loading="lazy"><div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div><div class="trainer-info"><h5>Karthik Suresh</h5><span>Weight Management</span><p>Helped 500+ members achieve sustainable fat loss.</p></div></div>
-      </div>
-      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="110">
-        <div class="trainer-card gsap-card"><div class="trainer-photo"><img src="assets/images/trainers/trainer-meera.jpg" alt="Meera Nair, Wellness & Nutrition coach" loading="lazy"><div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div><div class="trainer-info"><h5>Meera Nair</h5><span>Wellness & Nutrition</span><p>Certified nutritionist blending diet with training.</p></div></div>
-      </div>
-      <div class="col-md-6 col-lg-3" data-aos="fade-up">
-        <div class="trainer-card gsap-card"><div class="trainer-photo"><img src="assets/images/trainers/trainer-sanjay.jpg" alt="Sanjay Iyer, HIIT & Conditioning coach" loading="lazy"><div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div><div class="trainer-info"><h5>Sanjay Iyer</h5><span>HIIT & Conditioning</span><p>Runs Chennai's most intense weekend HIIT sessions.</p></div></div>
-      </div>
-      <!--Ramesh -->
-<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="40">
-    <div class="trainer-card gsap-card">
-        <div class="trainer-photo">
-            <img src="assets/images/trainers/Ramesh.png"
-                 alt="Ramesh"
-                 loading="lazy">
 
-            <div class="social">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-crown"></i></div>
+          <h4>Founder & Head Coach</h4>
+          <ul class="role-list">
+            <li><i class="fa-solid fa-circle"></i><span>Expert in bodybuilding & strength training</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Personalized fitness coaching</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Weight loss & muscle-building programs</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Competition preparation guidance</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Functional & endurance training</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Focus on discipline & consistency</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Goal-oriented training approach</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Dedicated to transforming lives through fitness</span></li>
+          </ul>
         </div>
-
-        <div class="trainer-info">
-            <h5>Ramesh</h5>
-            <span>Mobility & Recovery</span>
-            <p>Focused on injury prevention and long-term movement health.</p>
-        </div>
-    </div>
-</div>
-      <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="70">
-        <div class="trainer-card gsap-card"><div class="trainer-photo"><img src="assets/images/trainers/trainer-vishal.jpg" alt="Vishal Kumar, Competitive Powerlifting coach" loading="lazy"><div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div></div><div class="trainer-info"><h5>Vishal Kumar</h5><span>Competitive Powerlifting</span><p>Coaches state-level lifters and everyday strength seekers alike.</p></div></div>
       </div>
-      <!-- Prasad -->
-<div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="110">
-    <div class="trainer-card gsap-card">
-        <div class="trainer-photo">
-            <img src="assets/images/trainers/Prasad.png"
-                 alt="Prasad"
-                 loading="lazy">
 
-            <div class="social">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="40">
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-user-check"></i></div>
+          <h4>Certified Personal Trainer</h4>
+          <ul class="role-list">
+            <li><i class="fa-solid fa-circle"></i><span>One-on-one personal coaching</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Customized workout plans</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Weight management & fat loss</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Muscle toning & strength building</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Fitness goal tracking</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Motivation & accountability</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Lifestyle-focused training</span></li>
+          </ul>
         </div>
+      </div>
 
-        <div class="trainer-info">
-            <h5>Prasad</h5>
-            <span>Fitness</span>
-            <p>Dedicated programs for strength, toning and postnatal fitness.</p>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="70">
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-dumbbell"></i></div>
+          <h4>Senior Fitness Trainer</h4>
+          <ul class="role-list">
+            <li><i class="fa-solid fa-circle"></i><span>Personalized fitness programs</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Weight loss & muscle gain</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Strength & endurance training</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Functional fitness coaching</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Safe workout techniques</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Progress monitoring</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>One-on-one motivation</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Goal-oriented training plans</span></li>
+          </ul>
         </div>
-    </div>
-</div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up">
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-apple-whole"></i></div>
+          <h4>Nutrition & Wellness Coach</h4>
+          <ul class="role-list">
+            <li><i class="fa-solid fa-circle"></i><span>Personalized nutrition guidance</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Healthy meal planning</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Lifestyle & wellness coaching</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Weight management support</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Sports nutrition basics</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Recovery & energy optimization</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Healthy habit development</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Holistic wellness approach</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="40">
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-person-running"></i></div>
+          <h4>Strength & Conditioning Coach</h4>
+          <ul class="role-list">
+            <li><i class="fa-solid fa-circle"></i><span>Strength & performance training</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Mobility & endurance development</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Functional movement improvement</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Injury prevention techniques</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Scientific training methods</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Proper form & technique coaching</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Programs for all fitness levels</span></li>
+            <li><i class="fa-solid fa-circle"></i><span>Performance-focused training plans</span></li>
+          </ul>
+        </div>
+      </div>
+
     </div>
   </div>
 </section>

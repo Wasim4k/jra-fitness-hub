@@ -26,6 +26,13 @@
 <!-- Custom CSS -->
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
+<style>
+.role-card{background:rgba(255,255,255,.03);border:1px solid rgba(255,255,255,.08);border-radius:14px;padding:2rem 1.75rem;height:100%;transition:transform .3s ease,border-color .3s ease;}
+.role-card:hover{transform:translateY(-6px);border-color:var(--orange);}
+.role-card .service-icon{margin-bottom:1rem;}
+.role-card h5{margin-bottom:.6rem;}
+.role-card .role-tagline{color:var(--orange);font-size:.85rem;font-weight:600;text-transform:uppercase;letter-spacing:.4px;display:block;margin-bottom:.75rem;}
+</style>
 </head>
 <body>
 
@@ -427,55 +434,35 @@
     </div>
     <div class="row g-4">
       <div class="col-md-6 col-lg-3" data-aos="fade-up">
-        <div class="trainer-card gsap-card">
-          <div class="trainer-photo">
-            <img src="assets/images/trainers/trainer-rahul.jpg" alt="Rahul Jayaraman, Strength & Conditioning coach at JRA Fitness Hub" loading="lazy">
-            <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
-          </div>
-          <div class="trainer-info">
-            <h5>Rahul Jayaraman</h5>
-            <span>Strength & Conditioning</span>
-            <p>8+ years turning beginners into confident lifters.</p>
-          </div>
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-crown"></i></div>
+          <h5>Founder & Head Coach</h5>
+          <span class="role-tagline">Bodybuilding & Strength</span>
+          <p>Competition-level coaching in strength, discipline and goal-oriented training.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="40">
-        <div class="trainer-card gsap-card">
-          <div class="trainer-photo">
-            <img src="assets/images/trainers/trainer-anjali.jpg" alt="Anjali Krishnan, Functional Training coach at JRA Fitness Hub" loading="lazy">
-            <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
-          </div>
-          <div class="trainer-info">
-            <h5>Anjali Krishnan</h5>
-            <span>Functional Training</span>
-            <p>Specialist in athletic performance & mobility.</p>
-          </div>
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-user-check"></i></div>
+          <h5>Certified Personal Trainer</h5>
+          <span class="role-tagline">1-on-1 Coaching</span>
+          <p>Customized workout plans with fitness goal tracking and accountability.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="90">
-        <div class="trainer-card gsap-card">
-          <div class="trainer-photo">
-            <img src="assets/images/trainers/trainer-karthik.jpg" alt="Karthik Suresh, Weight Management coach at JRA Fitness Hub" loading="lazy">
-            <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
-          </div>
-          <div class="trainer-info">
-            <h5>Karthik Suresh</h5>
-            <span>Weight Management</span>
-            <p>Helped 500+ members achieve sustainable fat loss.</p>
-          </div>
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-dumbbell"></i></div>
+          <h5>Senior Fitness Trainer</h5>
+          <span class="role-tagline">Strength & Endurance</span>
+          <p>Safe, progress-monitored programs for weight loss and muscle gain.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-3" data-aos="fade-up" data-aos-delay="140">
-        <div class="trainer-card gsap-card">
-          <div class="trainer-photo">
-            <img src="assets/images/trainers/trainer-meera.jpg" alt="Meera Nair, Wellness & Nutrition coach at JRA Fitness Hub" loading="lazy">
-            <div class="social"><a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></div>
-          </div>
-          <div class="trainer-info">
-            <h5>Meera Nair</h5>
-            <span>Wellness & Nutrition</span>
-            <p>Certified nutritionist blending diet with training.</p>
-          </div>
+        <div class="role-card gsap-card">
+          <div class="service-icon"><i class="fa-solid fa-apple-whole"></i></div>
+          <h5>Nutrition & Wellness Coach</h5>
+          <span class="role-tagline">Diet & Lifestyle</span>
+          <p>Personalized nutrition guidance and holistic wellness coaching.</p>
         </div>
       </div>
     </div>
@@ -726,7 +713,7 @@
 <footer>
   <div class="container">
     <div class="row g-5">
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <div class="footer-brand">
     <img src="assets/images/logo/jra-fitness-logo.png"
          alt="JRA Fitness Hub Logo"
@@ -740,7 +727,7 @@
           <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
         </div>
       </div>
-      <div class="col-sm-6 col-lg-2">
+      <div class="col-sm-6 col-lg-3">
         <div class="footer-title">Explore</div>
         <ul class="footer-links">
           <li><a href="about.html">About Us</a></li>
@@ -749,21 +736,13 @@
           <li><a href="gallery.html">Gallery</a></li>
         </ul>
       </div>
-      <div class="col-sm-6 col-lg-2">
+      <div class="col-sm-6 col-lg-3">
         <div class="footer-title">Company</div>
         <ul class="footer-links">
           <li><a href="membership.html">Membership</a></li>
           <li><a href="contact.html">Contact</a></li>
           <li><a href="#faq">FAQs</a></li>
         </ul>
-      </div>
-      <div class="col-lg-4">
-        <div class="footer-title">Newsletter</div>
-        <p>Get fitness tips and offers straight to your inbox.</p>
-        <form class="d-flex gap-2 mt-3" onsubmit="return false;">
-          <input type="email" class="form-control" placeholder="Your email" style="background:rgba(255,255,255,.03);border:1px solid var(--line);color:#fff;border-radius:10px;padding:12px 16px;">
-          <button class="btn-primary-jra magnetic" style="padding:12px 20px;"><i class="fa-solid fa-arrow-right"></i></button>
-        </form>
       </div>
     </div>
     <div class="footer-bottom">
